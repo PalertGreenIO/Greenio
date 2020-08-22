@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/grass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+        android:src="@drawable/profile1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/profile2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:gravity="center">
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFF"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Purchase"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="160dp"
+        android:textStyle="bold"/>
+
+ </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

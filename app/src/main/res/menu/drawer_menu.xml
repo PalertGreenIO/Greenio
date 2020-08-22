@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    tools:titleColor="#FFFF">
+
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="Home" />
+
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person"
+            android:title="Profile" />
+
+        <item android:id="@+id/nav_account"
+            android:icon="@drawable/ic_baseline_account"
+            android:title="Account Settings" />
+
+        <item android:id="@+id/nav_Help"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="Help" />
+
+        <item android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_baseline_email"
+            android:title="FAQ" />
+
+        <item android:id="@+id/nav_logoutuser"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"
+            android:onClick="logout"/>
+
+
+
+
+
+    </group>
+</menu>

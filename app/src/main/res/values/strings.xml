@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Greenio</string>
+
+
+    <string name="title1">Conserve Water</string>
+    <string name="title2">Travel Green</string>
+    <string name="title3">Save Energy</string>
+    <string name="title4">Start Small</string>
+    <string name="title5">Reduce Waste</string>
+    <string name="Next">Next</string>
+    <string name="Back">Back</string>
+    <string name="Skip">Skip</string>
+    <string name="Done">Done</string>
+    <string name="description1">Lets get started</string>
+    <string name="description2">Start saving our Mother Earth</string>
+    <string name="description3">Buy less, Choose well</string>
+    <string name="description4">Quality products and fast transaction </string>
+    <string name="description5">Discover something new and discover the difference</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

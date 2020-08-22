@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="bottom">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center">
+
+
+       <TextView
+           android:padding="30dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="How can we help you?"
+           android:textSize="30sp"
+           android:textColor="@color/colorPrimary"
+           android:textStyle="bold" />
+
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Type keywords"
+           android:layout_margin="10dp">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="text" />
+
+       </com.google.android.material.textfield.TextInputLayout>
+
+
+       <TextView
+           android:paddingLeft="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Frequently Asked Questions"
+           android:layout_gravity="left"
+           android:textSize="25sp"
+           android:textColor="@color/colorPrimary"/>
+       <TextView
+           android:paddingLeft="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="What is GreenIO all about?"
+           android:layout_gravity="left"
+           android:textSize="20sp"/>
+       <TextView
+           android:paddingLeft="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Who is behind GreenIO?"
+           android:layout_gravity="left"
+           android:textSize="20sp"/>
+       <TextView
+           android:paddingLeft="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Is my data secure?"
+           android:layout_gravity="left"
+           android:textSize="20sp"/>
+       <TextView
+           android:paddingLeft="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="What is GreenIO all about?"
+           android:layout_gravity="left"
+           android:textSize="20sp"/>
+       <TextView
+           android:paddingLeft="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="How do I get started?"
+           android:layout_gravity="left"
+           android:textSize="20sp"/>
+
+       <TextView
+           android:paddingTop="10dp"
+           android:paddingLeft="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Shopping and Ordering"
+           android:layout_gravity="left"
+           android:textSize="25sp"
+           android:textColor="@color/colorPrimary"/>
+       <TextView
+           android:paddingLeft="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Why I didn't receive my full order?"
+           android:layout_gravity="left"
+           android:textSize="20sp"/>
+       <TextView
+           android:paddingLeft="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="What are the payment options?"
+           android:layout_gravity="left"
+           android:textSize="20sp"/>
+
+
+
+
+
+   </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "45108998016",
+    "firebase_url": "https://greenio-7afa9.firebaseio.com",
+    "project_id": "greenio-7afa9",
+    "storage_bucket": "greenio-7afa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45108998016:android:cc98f299307a5c4eae5b65",
+        "android_client_info": {
+          "package_name": "com.dcoders.greenio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45108998016-a9cmo0ajbb9plv2an4nra6ikii57a0c2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dcoders.greenio",
+            "certificate_hash": "a74c7fe5426702fa970477b983d1f10fc95d1513"
+          }
+        },
+        {
+          "client_id": "45108998016-r3sgsk2goatsr3ncql3qo1kgvf02l4ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtF3DMrxRw46kZv496heVTQr9ZIwKFNSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45108998016-r3sgsk2goatsr3ncql3qo1kgvf02l4ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
